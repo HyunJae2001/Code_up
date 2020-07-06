@@ -1,5 +1,5 @@
 //
-//  1001.c
+//  1017.c
 //  Code_Up
 //
 //  Created by HyunJae_K on 2020/07/06.
@@ -9,7 +9,11 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello");
+    int n;
+    
+    scanf("%d", &n);
+    
+    printf("%d %d %d", n, n, n);
     
     return 0;
 }

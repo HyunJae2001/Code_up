@@ -1,5 +1,5 @@
 //
-//  1001.c
+//  1002.c
 //  Code_Up
 //
 //  Created by HyunJae_K on 2020/07/06.
@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello");
+    printf("Hello World");
     
     return 0;
 }
