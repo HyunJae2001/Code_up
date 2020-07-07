@@ -1,5 +1,5 @@
 //
-//  1049.c
+//  1079.c
 //  Code_Up
 //
 //  Created by HyunJae_K on 2020/07/07.
@@ -9,14 +9,15 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
-    
-    if(a>b) {
-        printf("1");
-    }
-    else {
-        printf("0");
+    while(1) {
+        char c;
+        scanf(" %c", &c);
+        
+        printf("%c\n", c);
+        
+        if(c == 'q') {
+            break;
+        }
     }
     
     return 0;

@@ -1,5 +1,5 @@
 //
-//  1049.c
+//  1078.c
 //  Code_Up
 //
 //  Created by HyunJae_K on 2020/07/07.
@@ -9,15 +9,14 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
+    int n, sum=0;
+    scanf("%d", &n);
     
-    if(a>b) {
-        printf("1");
+    for(int i=2; i<=n; i+=2) {
+        sum += i;
     }
-    else {
-        printf("0");
-    }
+    
+    printf("%d", sum);
     
     return 0;
 }

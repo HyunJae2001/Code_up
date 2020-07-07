@@ -1,5 +1,5 @@
 //
-//  1049.c
+//  1063.c
 //  Code_Up
 //
 //  Created by HyunJae_K on 2020/07/07.
@@ -12,11 +12,11 @@ int main() {
     int a, b;
     scanf("%d %d", &a, &b);
     
-    if(a>b) {
-        printf("1");
+    if(a > b) {
+        printf("%d", a);
     }
     else {
-        printf("0");
+        printf("%d", b);
     }
     
     return 0;

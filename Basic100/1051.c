@@ -1,5 +1,5 @@
 //
-//  1049.c
+//  1051.c
 //  Code_Up
 //
 //  Created by HyunJae_K on 2020/07/07.
@@ -9,10 +9,10 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
+    long long int a, b;
+    scanf("%lld %lld", &a, &b);
     
-    if(a>b) {
+    if(b >= a) {
         printf("1");
     }
     else {

@@ -1,5 +1,5 @@
 //
-//  1049.c
+//  1086.c
 //  Code_Up
 //
 //  Created by HyunJae_K on 2020/07/07.
@@ -9,15 +9,13 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
+    int w, h, b;
+    double res;
+    scanf("%d %d %d", &w, &h, &b);
     
-    if(a>b) {
-        printf("1");
-    }
-    else {
-        printf("0");
-    }
+    res = (double)w*h*b/8/1024/1024;
+    
+    printf("%.2lf MB", res);
     
     return 0;
 }
