@@ -1,5 +1,5 @@
 //
-//  1111.c
+//  1118.c
 //  Code_Up
 //
 //  Created by HyunJae_K on 2020/07/26.
@@ -9,10 +9,10 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    int w, h;
+    scanf("%d %d", &w, &h);
     
-    printf("%d%%", n);
+    printf("%.1f", (float)w*h/2);
     
     return 0;
 }

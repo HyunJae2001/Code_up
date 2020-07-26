@@ -1,5 +1,5 @@
 //
-//  1111.c
+//  1115.c
 //  Code_Up
 //
 //  Created by HyunJae_K on 2020/07/26.
@@ -9,10 +9,10 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    long long int a, b;
+    scanf("%lld %lld", &a, &b);
     
-    printf("%d%%", n);
+    printf("%lld", a+b);
     
     return 0;
 }
